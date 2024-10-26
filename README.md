@@ -19,21 +19,11 @@ This repository was originally developed by [GovTrack.us](https://www.govtrack.u
 
 ### Setting Up
 
-This project is tested using Python 3.
+The following instructions are for my windows machine.
 
 **System dependencies**
+This project is tested using Python 3, install at https://www.python.org/downloads/.
 
-On Ubuntu, you'll need `wget`, `pip`, and some support packages:
-
-```bash
-sudo apt-get install git python3-dev libxml2-dev libxslt1-dev libz-dev python3-pip python3-venv
-```
-
-On OS X, you'll need developer tools installed ([XCode](https://developer.apple.com/xcode/)), and `wget`.
-
-```bash
-brew install wget
-```
 
 **Python dependencies**
 
@@ -41,8 +31,9 @@ It's recommended you use a `virtualenv` (virtual environment) for development. C
 
 ```bash
 python3 -m venv env
-source env/bin/activate
+.\env\Scripts\activate
 ```
+
 Finally, with your virtual environment activated, install the package, which
 will automatically pull in the Python dependencies:
 

@@ -1,3 +1,6 @@
 [submodule "congress-legislators"]
 	path = congress-legislators
 	url = git://github.com/unitedstates/congress-legislators
+[submodule "politiprofile/congress-scraper"]
+	path = politiprofile/congress-scraper
+	url = https://github.com/unitedstates/congress
